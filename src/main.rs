@@ -11,7 +11,7 @@ fn main() {
         Err(e) => println!("couldn't get client: {e:?}"),
     }
 
-    for (i, stream) in listener.incoming().enumerate() {
+    for stream in listener.incoming() {
         let stream = stream.unwrap();
 
         //println!("{i} Connection establised!");
