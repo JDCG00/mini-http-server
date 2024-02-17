@@ -1,1 +1,1 @@
-## Mini http server to learn the basic of Rust
+## Mini http server to learn the basics of Rust
